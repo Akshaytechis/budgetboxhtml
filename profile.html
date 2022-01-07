@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>BudgetBox</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href="Dashboard_details.html">
+				<img src="img/Logo.png" alt="" />
+			</a>
+			<div class="profile-name">
+				<p>Mike Tyson</p>
+				<a href="profile_drop.html"><img src="img/down-arrow.png" alt="" /></a>
+			</div>
+		</header>
+		<section class="content-wrapper">
+			<aside class="sidebar">
+				<ul>
+					<a href="Dashboard_details.html">
+						<li>
+							<img src="img/dashboard_white.png" alt="" />
+							<span>Dash board</span>
+						</li>
+					</a>
+					<a href="transaction.html">
+						<li>
+							<img src="img/list_alt_white.png" alt="" />
+							<span>Transaction List</span>
+						</li>
+					</a>
+					<a href="profile.html">
+						<li class="active-sidebar">
+							<img src="img/icon.png" alt="" />
+							<span>My account</span>
+						</li>
+					</a>
+				</ul>
+			</aside>
+			<div class="content-body">
+				<section>
+					<div class="profile">
+						<form class="container-form">
+							<input type="file" id="prof" />
+							<img src="img/profile-icon.png" alt="" class="upload-img" /><br>
+							<div class="upload-txt">Add A Profile Picture</div><br><br>
+							<label for="name">Name</label>
+							<input type="text" placeholder="Type your name" /><br>
+							<label for="email">Mail address</label>
+							<input type="text" placeholder="Type your Mail address" /><br>
+							<label for="password">Password</label>
+							<input type="password" placeholder="Type your Password" /><br>
+                           <a href="Dashboard_details.html"> <button type="button" class="prof-btn">Done</button></a>
+						</form>
+					</div>
+				</section>
+			</div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>BudgetBox</title>
+	</head>
+	<body>
+		<header class="header">
+			<a href="Dashboard_details.html">
+				<img src="img/Logo.png" alt="" />
+			</a>
+			<div class="profile-name">
+				<p>Mike Tyson</p>
+				<a href="profile_drop.html"><img src="img/down-arrow.png" alt="" /></a>
+			</div>
+		</header>
+		<section class="content-wrapper">
+			<aside class="sidebar">
+				<ul>
+					<a href="Dashboard_details.html">
+						<li>
+							<img src="img/dashboard_W.png " alt="" />
+							<span>Dash board</span>
+						</li>
+					</a>
+					<a href="transaction.html">
+						<li class="active-sidebar">
+							<img src="img/list_alt_white.png" alt="" />
+							<span>Transaction List</span>
+						</li>
+					</a>
+					<a href="profile.html">
+						<li>
+							<img src="img/logo_w.png" alt="" />
+							<span>My account</span>
+						</li>
+					</a>
+				</ul>
+			</aside>
+			<div class="content-body">
+				<section class="Transaction-details">
+					<div class="transaction-details">Transaction List</div>
+					<button class="trans-btn">
+						<span class="trans-add">Add</span>
+						<a href="transaction_add.html"><img src="img/add_plus.png" alt="" /></a>
+					</button>
+					<img src="" alt="" />
+				</section>
+				<section class="trans-table">
+					<table>
+						<tr>
+							<th>Date</th>
+							<th>Category</th>
+							<th>Items</th>
+							<th>Cost</th>
+						</tr>
+						<tr>
+							<td>2021/Oct/5</td>
+							<td>Salary</td>
+							<td>Salary</td>
+							<td id="income">+ $20,000</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/8</td>
+							<td>House</td>
+							<td>House</td>
+							<td id="expense">- $500</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/10</td>
+							<td>Utility</td>
+							<td>Transport</td>
+							<td id="expense">- $300</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/18</td>
+							<td>Food</td>
+							<td>Grocery</td>
+							<td id="expense">- $100</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/22</td>
+							<td>Utility</td>
+							<td>Internet</td>
+							<td id="expense">- $150</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/25</td>
+							<td>Utility</td>
+							<td>Elctricity</td>
+							<td id="expense">- $100</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/28</td>
+							<td>Other</td>
+							<td>Healthcare</td>
+							<td id="expense">- $750</td>
+						</tr>
+						<tr>
+							<td>2021/Oct/30</td>
+							<td>Other</td>
+							<td>Gym</td>
+							<td id="expense">- $50</td>
+						</tr>
+					</table>
+				</section>
+			</div>
+		</section>
+	</body>
+</html>
